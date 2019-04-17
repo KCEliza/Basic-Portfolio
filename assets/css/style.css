@@ -3,10 +3,10 @@ h1, h2, img, p {
 }
 p, img {
     
-    margin-top:100px;
+    margin-top:50px;
 }
 body{
-    background-image:url("../images/Circle.jpg");
+    background-image:url("../images/tex2res5.png");
     background-repeat:no-repeat;
     background-size: 100%;
 }
@@ -15,8 +15,13 @@ h1 {
  text-align:center;
  width: 17%;
  color: white;
- font-size: 30px;
+ font-size: 40px;
 
+}
+h2{
+    text-align:left;
+    margin-top:50px;
+    font-size:25px;
 }
 header {
     background: orange;
@@ -37,7 +42,7 @@ p{
     font-size: 25px;
     font-family:sans-serif;
     border:solid;
-    color: #eee;
+    color: #333;
     
 }
 img{
@@ -45,3 +50,16 @@ img{
     height: 400px;
     width: 400px;
 }
+.Img1 {
+    position: relative;
+  }
+  
+  .text-block {
+    position: absolute;
+    background-color: black;
+    color: white;
+    
+  }
+  .container {
+      border: solid green;
+  }
