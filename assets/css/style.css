@@ -45,7 +45,6 @@ p{
     width: 50%;
     font-size: 25px;
     font-family:sans-serif;
-    
     background:#eee;
     color: #333;
     padding: 10px;
@@ -57,20 +56,8 @@ img{
     padding: 5px;
 }
 /* Portfolio CSS */
-
-
-.text-block {
-    position: absolute;
-    background-color: black;
-    color: white;
-}
-.container {
-    border: solid green;
-    position: relative;
-}
-h4{
-    background:orange;
-    position: absolute;
+#container{
+    float:left;
 }
 /* Contact CSS */
 form{
@@ -98,6 +85,6 @@ textarea{
 h3{
     text-align:left;
     font-size:25px;
-    margin-bottom:30px;
+    margin-bottom:15px;
     border-bottom:solid gray 1px;
 }
