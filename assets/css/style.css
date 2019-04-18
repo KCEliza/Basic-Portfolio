@@ -56,8 +56,18 @@ img{
     padding: 5px;
 }
 /* Portfolio CSS */
-#container{
-    float:left;
+.container{
+    box-sizing:border-box;
+    border:solid orange 2px;
+    width:900px;
+    height:1250px;
+    margin-top:10px;
+    margin-left:400px;
+    background:#eee;
+}
+#Island, #Sunset, #Space, #Pikachu, #Angry{
+    margin-top:5px;
+    margin-left:20px;
 }
 /* Contact CSS */
 form{
