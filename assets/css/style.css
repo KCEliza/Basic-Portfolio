@@ -1,7 +1,7 @@
 h1, img, p {
     margin-left: 400px;
 }
-p, img {
+  img {
     margin-top:50px;
 }
 body{
@@ -10,12 +10,10 @@ body{
     background-size: 100%;
 }
 h1{
-    margin-top:-100px;
+    margin-top:-67px;
     font-size:40px;
     background: deeppink;
-    width:300px;
-    margin-top:-40px;
-    padding-bottom:14px;
+    width:325px;
 }
 
 header {
@@ -34,14 +32,15 @@ li {
 /* About CSS */
 h2{
     
-    margin:50px 350px 0px 350px;
-    font-size:25px;
+    margin:50px 350px -45px 400px;
+    font-size:35px;
     background: #eee;
-    border-bottom: solid 1px;
+    height:50px;
+    width:50%;
+    padding:10px;
 }
-
 p{
-   margin-top:5px;
+    margin-top:26px;
    margin-right: 100px;
     width: 50%;
     font-size: 25px;
@@ -59,7 +58,7 @@ img{
 }
 /* Portfolio CSS */
 
-}
+
 .text-block {
     position: absolute;
     background-color: black;
@@ -75,7 +74,7 @@ h4{
 }
 /* Contact CSS */
 form{
-    margin-top:50px;
+    margin-top:55px;
     text-align:center;
     box-sizing: border-box;
     margin-left:33%;
