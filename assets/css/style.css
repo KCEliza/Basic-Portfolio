@@ -1,7 +1,7 @@
-h1, img, p {
+h1, #Me, p {
     margin-left: 400px;
 }
-  img {
+  #Me {
     margin-top:50px;
 }
 body{
@@ -49,25 +49,46 @@ p{
     color: #333;
     padding: 10px;
 }
-img{
+#Me{
     float:left;
     height: 400px;
     width: 400px;
     padding: 5px;
+    
 }
 /* Portfolio CSS */
 .container{
     box-sizing:border-box;
-    border:solid orange 2px;
-    width:900px;
+    border:solid gray 2px;
+    width:850px;
     height:1250px;
     margin-top:10px;
     margin-left:400px;
     background:#eee;
+    padding-left:10px;
+}
+h5{
+    position:absolute;
+    background-color:#FFE2E2;
+    color: deeppink;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    bottom:10px;
+}
+.Photo{
+    float:left;
+    position:relative;
+    height: 400px;
+    width: 400px;
+    margin: 5px;
 }
 #Island, #Sunset, #Space, #Pikachu, #Angry{
+
     margin-top:5px;
-    margin-left:20px;
+    height: 400px;
+    width: 400px;
+
 }
 /* Contact CSS */
 form{
@@ -76,7 +97,7 @@ form{
     box-sizing: border-box;
     margin-left:33%;
     width: 33%;
-    height: 400px;
+    height: 450px;
     border: solid gray 1px;
     background: #eee;
 }
@@ -97,4 +118,8 @@ h3{
     font-size:25px;
     margin-bottom:15px;
     border-bottom:solid gray 1px;
+}
+h6{
+    font-size:15px;
+    margin: 10px 350px 10px 0;
 }
